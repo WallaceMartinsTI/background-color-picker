@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.mainSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh;
+  transition: .5s;
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+  color: gold;
+
+  font-family: 'Lobster', sans-serif;
+}
+
+.pageFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+  color: gold;
+
+  font-family: 'Lobster', sans-serif;
+  font-size: 16px;
+}
+
+
+
+.colorBlock {
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border: solid .2em;
+  width: 6.5em;
+  height: 6.5em;
+  transition: .3s;
+}
+
+.colorBlock:hover {
+  border-color: rgb(11, 171, 211) !important;
+}
+
+.textInside {
+  visibility: hidden;
+}
