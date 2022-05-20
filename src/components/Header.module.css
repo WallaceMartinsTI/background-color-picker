@@ -1,0 +1,10 @@
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+  color: gold;
+
+  font-family: 'Lobster', sans-serif;
+}

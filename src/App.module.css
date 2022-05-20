@@ -11,31 +11,6 @@
   transition: .5s;
 }
 
-.pageTitle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: black;
-  color: gold;
-
-  font-family: 'Lobster', sans-serif;
-}
-
-.pageFooter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: black;
-  color: gold;
-
-  font-family: 'Lobster', sans-serif;
-  font-size: 16px;
-}
-
-
-
 .colorBlock {
   display: flex;
   border-radius: 50%;
@@ -53,4 +28,10 @@
 
 .textInside {
   visibility: hidden;
+}
+
+@media(max-width: 1100px) {
+  .mainSection {
+    height: 100%;
+  }
 }

@@ -1,6 +1,9 @@
-import styles from "./App.module.css";
-
 import { useState } from "react";
+
+import Header from "./components/Header";
+import Footer from "./components/Footer"
+
+import styles from "./App.module.css";
 
 function App() {
   // 48 colors
@@ -63,9 +66,9 @@ function App() {
 
   return (
     <>
-      <div className={styles.pageTitle}>
-        <h1><strong>Background Color Picker</strong></h1>
-      </div>
+      <header>
+        <Header />
+      </header>
       <section
         className={styles.mainSection}
         style={{ backgroundColor: bkgColor }}
@@ -81,9 +84,7 @@ function App() {
           </div>
         ))}
       </section>
-      <div className={styles.pageFooter}>
-        <p>&copy; Copyright - WCSM 2022</p>
-      </div>
+      <Footer />
     </>
   );
 }
